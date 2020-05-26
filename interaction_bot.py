@@ -4,7 +4,7 @@ import websocket
 import traceback
 from slacker import Slacker
 
-token = os.environ['SLACKER_KEY'] #export SLACKER_KEY = xoxb-~~~~
+token = os.environ['SLACKER_RTM_KEY'] #export SLACKER_KEY = xoxb-~~~~
 slack = Slacker(token)
 
 def echobot():
